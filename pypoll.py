@@ -26,7 +26,5 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 with open(file_to_save, "w") as txt_file:
 
     # Write three counties to the file.
-     txt_file.write("Arapahoe, ")
-     txt_file.write("Denver, ")
-     txt_file.write("Jefferson, ")
-     
+     txt_file.write("Arapahoe\nDenver\nJefferson")
+
