@@ -48,7 +48,7 @@ The analysis of county voters shows that
 This code is flexible enough for several changes the most immediately obvious would be that it can be used to analyze the information from any future state level election.
 For local elections a simple change to County reference seen below
 '''
-# Print the final vote count (to terminal)
+
     election_results = (
         f"\nElection Results\n"
         f"-------------------------\n"
@@ -58,7 +58,7 @@ For local elections a simple change to County reference seen below
 '''
 To something representative of the area covered 
 '''
-# Print the final vote count (to terminal)
+
     election_results = (
         f"\nElection Results\n"
         f"-------------------------\n"
