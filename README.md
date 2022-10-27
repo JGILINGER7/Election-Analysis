@@ -47,7 +47,7 @@ The analysis of county voters shows that
 ## Further Uses 
 This code is flexible enough for several changes the most immediately obvious would be that it can be used to analyze the information from any future state level election.
 For local elections a simple change to County reference seen below
-'''
+
 
     election_results = (
         f"\nElection Results\n"
@@ -55,9 +55,9 @@ For local elections a simple change to County reference seen below
         f"Total Votes: {total_votes:,}\n"
         f"-------------------------\n\n"
         f"County Votes:\n") 
-'''
+
 To something representative of the area covered 
-'''
+
 
     election_results = (
         f"\nElection Results\n"
@@ -65,6 +65,6 @@ To something representative of the area covered
         f"Total Votes: {total_votes:,}\n"
         f"-------------------------\n\n"
         f"Township Votes:\n")
-'''
-Allows us to reuse almost the entirety of the code with only a miniscule change for clarity in the final output. 
+
+This a llows us to reuse almost the entirety of the code with only a miniscule change for clarity in the final output. 
 We could also make a useful but more complicated alteration in the code to see each candidates total votes by county. At the basic level this would mean adding code similar to what we had in the [](pypoll.py) but adding inside the for loop an if elif statement that isolates the information for each county and then adding the apporpriate print outputs for each county. 
